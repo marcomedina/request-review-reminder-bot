@@ -7,11 +7,11 @@
   "env": {
     "SLACK_TOKEN": {
       "description": "Slack Bot Token",
-      "generator": "secret"
+      "value": "Get token here https://api.slack.com/tokens"
     },
     "GITHUB_TOKEN": {
       "description": "Github Token",
-      "value": "secret"
+      "value": "https://help.github.com/articles/creating-an-access-token-for-command-line-use/"
     },
     "SLACK_CHANNEL": {
       "description": "Slack channel to send the messages",

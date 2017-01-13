@@ -4,14 +4,14 @@
 
 ![](http://i.imgur.com/G7T8BXY.png)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?env[SLACK_TOKEN]=get+your+token+here:+https://api.slack.com/tokens&env[SLACK_CHANNEL]=slack-channel&env[GITHUB_TOKEN]=get+that+here:+https://my.slack.com/services/new/incoming-webhook&env[GITHUB_REPO]=repo&env[GITHUB_OWNER]=owner)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?templete=https://github.com/marcomedina/request-review-reminder-bot)
 
 1. Get a [Slack token](https://api.slack.com/tokens)
 2. Get a [Github Token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
 3. Get the `Slack Channel` to receive the messages
 4. Get the `Github Owner`
 5. Get the `Github Repo`
-6. Add them to your Heroku app settings by going to the settings page of your app:
+6. Add them to your Heroku app settings.
 
 ## License (MIT)
 
