@@ -1,0 +1,11 @@
+{
+  "name": "Request Reviews Reminder Bot",
+  "description": "Slack bot that reminds to review Github open PRs every day at 11AM.",
+  "repository": "https://github.com/marcomedina/request-review-reminder-bot",
+  "website": "https://marcomedina.xyz",
+  "keywords": ["slack", "channel", "new"],
+  "formation": [
+    { "process": "web", "quantity": 0, "size": "free"},
+    { "process": "clock", "quantity": 1, "size": "free"}
+  ]
+}
