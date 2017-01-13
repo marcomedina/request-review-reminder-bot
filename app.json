@@ -4,6 +4,34 @@
   "repository": "https://github.com/marcomedina/request-review-reminder-bot",
   "website": "https://marcomedina.xyz",
   "keywords": ["slack", "channel", "new"],
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "Slack Bot Token",
+      "generator": "secret"
+    },
+    "GITHUB_TOKEN": {
+      "description": "Github Token",
+      "value": "secret"
+    },
+    "SLACK_CHANNEL": {
+      "description": "Slack channel to send the messages",
+      "value": "slack-channel"
+    },
+    "GITHUB_OWNER": {
+      "description": "Github Owner/User",
+      "value": "owner"
+    },
+    "GITHUB_REPO": {
+      "description": "Github repository name",
+      "value": "repo"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 2,
+      "size": "Performance-M"
+    }
+  },
   "formation": [
     { "process": "web", "quantity": 0, "size": "free"},
     { "process": "clock", "quantity": 1, "size": "free"}
